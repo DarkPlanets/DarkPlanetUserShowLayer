@@ -1,0 +1,83 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "summoner",
+				"type": "uint256"
+			}
+		],
+		"name": "landInfo_MyLand",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "summoner",
+				"type": "uint256"
+			}
+		],
+		"name": "landInfo_MyLocation",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "summoner",
+				"type": "uint256"
+			}
+		],
+		"name": "summonerInfo_Me",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "mySummoner",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "sIndex",
+				"type": "uint256"
+			}
+		],
+		"name": "summonerInfo_MyLand",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
